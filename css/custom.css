@@ -1,25 +1,18 @@
-.post-content figure {
+.post-content .image-container {
     text-align: center;
     margin: 1rem auto;
 }
 
-.post-content figure img {
+.post-content .image-container img {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-.post-content figure figcaption {
+.post-content .image-caption {
     color: #666;
     font-size: 0.9em;
     margin-top: 0.5em;
-    font-style: italic;
-}
-.post-content img[title]::after {
-    content: attr(title);
-    display: block;
-    text-align: center;
-    margin-top: 8px;
-    color: #999;
-    font-size: 0.9em;
     font-style: italic;
 }
